@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f1f8fa;
+      color: #444;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background: #fff;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+    header .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #d62a77;
+      letter-spacing: 2px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #e31483;
+      font-weight: 500;
+    }
+    .btn {
+      padding: 10px 22px;
+      border-radius: 8px;
+      border: 2px solid #d62a77;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .btn-primary {
+      background: #d62a77;
+      color: #ffffff;
+      border: none;
+    }
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 80px 60px;
+    }
+    .hero-text h1 {
+      font-size: 40px;
+      color: #d62a77;
+    }
+    .hero-text h2 {
+      font-size: 20px;
+      margin-top: -10px;
+      margin-bottom: 20px;
+    }
+    .hero-text p {
+      max-width: 400px;
+      line-height: 1.6;
+    }
+    .hero-text .hero-btns {
+      margin-top: 20px;
+    }
+    .hero-text .hero-btns .btn {
+      margin-right: 10px;
+    }
+    .hero-img img {
+      width: 420px;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 40px 60px;
+    }
+    .feature-box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+    .brands {
+      display: flex;
+      justify-content: space-around;
+      padding: 40px;
+      background: #fff;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="home.html" class="logo">SIMBA</div>
+      <a href="home.html">Home</a>
+      <a href="product.html">Our Product</a>
+      <a href="25.html" class="btn btn-primary">Our Pricing</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="sign up.html" class="btn">Login</a>
+    </nav>
+  </header>
+  <section id="pricing" style="padding: 70px 60px; text-align:center;">
+    <h2 style="font-size:32px; color:#d62a77; margin-bottom:20px;">Our Pricing</h2>
+    <p style="max-width:600px; margin:auto; color:#555;">
+        We offer the best car deals with flexible financing options and unbeatable prices.
+    </p>
+
+    <div style="
+        margin-top:40px;
+        display:flex;
+        justify-content:center;
+        gap:30px;
+        flex-wrap:wrap;
+    ">
+        <!-- Basic Plan -->
+        <div style="
+            background:white;
+            width:280px;
+            padding:25px;
+            border-radius:15px;
+            box-shadow:0 3px 10px rgba(0,0,0,0.1);
+        ">
+            <h3 style="color:#d62a77;">Basic</h3>
+            <h2 style="margin:10px 0;">$12,000</h2>
+            <p>• Regular Cars<br>• Standard Warranty<br>• Free Delivery</p>
+            <button style="
+                margin-top:15px;
+                background:#d62a77;
+                padding:10px 20px;
+                color:white;
+                border:none;
+                border-radius:8px;
+                cursor:pointer;">
+                Choose Plan
+            </button>
+        </div>
+
+        <!-- Premium Plan -->
+        <div style="
+            background:white;
+            width:280px;
+            padding:25px;
+            border-radius:15px;
+            box-shadow:0 3px 10px rgba(0,0,0,0.1);
+        ">
+            <h3 style="color:#d62a77;">Premium</h3>
+            <h2 style="margin:10px 0;">$25,000</h2>
+            <p>• Luxury Cars<br>• 2-Year Warranty<br>• Fast Delivery</p>
+            <button style="
+                margin-top:15px;
+                background:#d62a77;
+                padding:10px 20px;
+                color:white;
+                border:none;
+                border-radius:8px;
+                cursor:pointer;">
+                Choose Plan
+            </button>
+        </div>
+
+        <!-- VIP Plan -->
+        <div style="
+            background:white;
+            width:280px;
+            padding:25px;
+            border-radius:15px;
+            box-shadow:0 3px 10px rgba(0,0,0,0.1);
+        ">
+            <h3 style="color:#d62a77;">VIP</h3>
+            <h2 style="margin:10px 0;">$45,000</h2>
+            <p>• Super Cars<br>• 5-Year Warranty<br>• Priority Delivery</p>
+            <button style="
+                margin-top:15px;
+                background:#d62a77;
+                padding:10px 20px;
+                color:white;
+                border:none;
+                border-radius:8px;
+                cursor:pointer;">
+                Choose Plan
+            </button>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
